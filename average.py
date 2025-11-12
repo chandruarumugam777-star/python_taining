@@ -1,0 +1,10 @@
+a=int(input("tam:"))
+b=int(input("eng:"))
+c=int(input("mat:"))
+d=int(input("sci:"))
+e=int(input("soc:"))
+f=(a+b+c+d+e/5)
+if(f<175):
+    print("fail")
+else:
+    print("pass")
